@@ -19,6 +19,6 @@ buttonEl.addEventListener("click", () => {
       .then((res) => alert(res))
       .catch((rej) => alert(rej));
   } else {
-    alert("Please enter valid details.");
+    alert("Please enter valid details");
   }
 });
